@@ -1,0 +1,7 @@
+C源文件部分的预定义部分不由yylex来处理
+即#include #define等预定义宏
+一般由preprocessor来处理
+尚未完成的有（一般需要在parser里面去完成）
+1.IdOrKeywork方法没有完善，没有符号表
+2.WriteToFiles写到代码codeOut没有完善
+3.yyDebug yyEror没有完善
